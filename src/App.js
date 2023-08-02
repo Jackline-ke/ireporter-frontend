@@ -1,8 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './componets/Navbar/Navbar';
-import Blogs from './pages/Blogs';
 import Home from './pages/Home';
-import Post from './pages/Post';
+import { PostsPage } from './pages/PostPage';
+import Single from './pages/Single/Single';
+
+import Write from './pages/Write/Write';
 
 
 
@@ -15,8 +17,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='Post' element={<Post />} />
-          <Route path='/Blogs' element={<Blogs />} />
+          <Route path='/post' element={<PostsPage />} />
+          <Route path='/write' element={<Write/>} />
+          <Route path='/post/:postId' element={<Single />}/>
         </Routes>
       </Router>
     </div>

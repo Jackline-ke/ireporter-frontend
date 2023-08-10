@@ -4,7 +4,7 @@ import './Posts.css'
 
 const Posts = ({ posts }) => {
   return (
-    <div className='posts mt-8 ml-16'>
+    <div className='posts mt-8 ml-16' id="post">
       {posts.map((p) => (
         <Post key={p.id} post={p} />
       ))}

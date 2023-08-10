@@ -1,0 +1,23 @@
+.container{
+    /* margin: auto;
+    padding-left: 25px;
+    padding-right: 25px; */
+    
+    background: #ff1212;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer-col-1 ul{
+    list-style-type: none;
+}
+.footer-col-1 ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+  

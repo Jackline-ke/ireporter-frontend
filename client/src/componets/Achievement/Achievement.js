@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function () {
+export default function Achievement() {
   return (
     <div className='flex justify-center'>
         <div className='mt-10 font-serif mb-20 border border-[#ff1212] w-[90%] rounded-3xl drop-shadow-xl'>
@@ -22,7 +22,7 @@ export default function () {
                 <h1>Posts</h1>
             </div>
         </div>
-    </div>
+        </div>
     </div>
   )
 }

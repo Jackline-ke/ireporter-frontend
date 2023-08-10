@@ -1,9 +1,13 @@
 import Posts from '../Posts/Posts'
-import Sidebar from '../Sidebar/Sidebar'
+// import Sidebar from '../Sidebar/Sidebar'
 import './Landing.css'
 import React, { useEffect, useState } from 'react'
 import axios from "axios"
 import { useLocation } from 'react-router-dom'
+import About from '../About/About'
+import Latest from '../Latest/Latest'
+import Achievement from '../Achievement/Achievement'
+import Footer from '../Footer/Footer'
 
 const Landing = () => {
   const [posts, setPosts] = useState([]);
@@ -30,8 +34,12 @@ const Landing = () => {
 
   return (
     <div className='landing'>
-        <Posts posts={posts} />
-        <Sidebar />
+      <About />
+      <Posts posts={posts} className="mt-20" />
+      {/* <Sidebar /> */}
+      <Latest />
+      <Achievement />
+      <Footer/>
     </div>
   )
 }

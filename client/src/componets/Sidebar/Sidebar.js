@@ -19,12 +19,12 @@ const Sidebar = () => {
         <div className='sidebarItem'>
             <span className='sidebarTitle'>IReporter</span>
             <img src={cor3} alt="IReporter" />
-            <p className='p-4 font-serif'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <p className='p-4 font-serif'>Ethics and Anti-Corruption Commission gathers information on corruption occuring in Government and public Sector from
+            a variety of sources.These sources includes members of the public, heads of governments and agencies, officals working in both
+            the public and private sectors and the media.The report can be made in this website or send us an email from our contacts below.
             </p>
         </div>
-        <div className='sidebarItem'>
+        {/* <div className='sidebarItem'>
             <span className='sidebarTitle'>CATEGORIES</span>
             <ul className='sidebarList font-serif grid grid-cols-2 gap-2'>
                 {cats.map((c) =>{
@@ -32,7 +32,7 @@ const Sidebar = () => {
                    
                 })}
             </ul>
-        </div>
+        </div> */}
     </div>
   )
 }

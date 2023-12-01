@@ -2,11 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Mochiy+Pop+P+One&family=Poppins:wght@200&family=Praise&family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
+
 @layer  base{
+    h5{
+        @apply font-[Praise] text-2xl text-[#FF1212]
+    }
     li{
-        @apply px-8;
-        @apply text-lg;
-        @apply font-bold;
-        @apply cursor-pointer
+        @apply text-base font-semibold cursor-pointer mr-12 
+    }
+    button{
+        @apply bg-[#FF1212] px-6 py-1 text-white
     }
 }

@@ -8,6 +8,7 @@ import About from '../About/About'
 import Latest from '../Latest/Latest'
 import Achievement from '../Achievement/Achievement'
 import Footer from '../Footer/Footer'
+import Contact from '../Contact/Contact'
 
 const Landing = () => {
   const [posts, setPosts] = useState([]);
@@ -37,8 +38,9 @@ const Landing = () => {
       <About />
       <Posts posts={posts} className="mt-20" />
       {/* <Sidebar /> */}
-      <Latest />
+      {/* <Latest /> */}
       <Achievement />
+      {/* <Contact /> */}
       <Footer/>
     </div>
   )

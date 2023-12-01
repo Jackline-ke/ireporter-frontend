@@ -8,6 +8,7 @@ const Single = () => {
     <div className='single'>
       <SinglePost />
       <Sidebar />
+      
     </div>
   )
 } 
